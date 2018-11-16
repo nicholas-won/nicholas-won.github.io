@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(../fonts/font-awesome/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+	text-align: center;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top:3%;
+	padding-bottom:20px;
+	background-color: white;
+	background-image: url('../assets/crossword.png');
+	background-repeat: repeat;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+	letter-spacing: 3px;
+	color: #6688aa;
+	font-size: 45px;
+	display:inline-block;
+	margin:auto;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color: #ddffff;
+} a:hover {
+    text-decoration: underline;
+}
+
+.main {
+	width: 900px;
+	height: 370px;
+	position:absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	margin:auto;
+	max-width:100%;
+	max-height:100%;
+	overflow:visible;
+}
+
+.left {
+	float: left;
+	width:42%;
+	text-align: right;
+	display:inline;
+	padding-top:90px;
+}
+
+.right {
+	width: 55%;
+	float: right;
+	display:inline;
+	color: #959595;
+	text-align: left;
+}
+
+.headshot {
+	width: 100px;
+	height: 100px;
+	transform-style: preserve-3d;
+	background-image: url('../assets/me2.jpg');
+	background-size: 110px;
+	background-position: center;
+	border-radius: 100px;
+	display:inline-block;
+	margin:0px 5px -5px auto;
+}
+
+#terminal {
+	font-size: 13px;
+	color:#f8f8f8;
+	font-family: 'Inconsolata';
+	text-align: left;
+	margin: 0px auto 10px auto;
+	width: 100%;
+	background-color:#445566;
+	padding:10px 0px 0px 15px;
+	border-radius: 0px 0px 4px 4px;
+} 
+
+#topbarthing {
+	margin: auto;
+	margin-top:10px;
+	background-color:#e3e3e3;
+	border-radius: 4px 4px 0px 0px;
+	padding: 1px 9px 0px 6px;
+	height: 18px;
+	width: 100%;
+} 	    
+.circle {
+	width: 8px;
+	height:8px;
+	border-radius: 8px;
+	margin: 4px 7px 1px 0px;
+	float:left;
+} 
+.red {
+	background-color:#FF4D4D;
+	border: solid 1px #B83737;
+}
+.yellow {
+	background-color:#FFDB4D;
+	border: solid 1px #CCAF3E;
+} 
+.green {
+	background-color:#33CC33;
+	border: solid 1px #29A329;
+}
+
+.input {
+	color: #c7c7c7;
+}
+.string {
+	color:#fff1b7;
+}
+
+.fa {
+	color:#959595;
+} .fa-linkedin:hover {
+	color: #5695b6;
+} .fa-github:hover {
+	color: #474747;
+} .fa-stack-overflow:hover {
+	color: #ffa35d;
+} .fa-facebook:hover {
+	color: #7e90b4;
+} .fa-instagram:hover {
+	color: #a09070;
+} .fa-file-pdf-o:hover {
+	color: #de5959;
+} .fa-spotify:hover {
+	color: #3fb563;
+}
+
+ul.links {
+	list-style-type: none;
+	display:inline;
+	margin-right:4px;
+}
+ul.links li{
+	display:inline;
+	font-size:35px;
+	padding: 7px;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}

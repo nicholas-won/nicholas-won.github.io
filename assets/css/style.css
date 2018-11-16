@@ -1,0 +1,121 @@
+/* Map background */
+#chartdiv {
+  width: 100%;
+  height: 100%;
+} 
+
+body {
+  display: block;
+  margin: 0px 0px 0px 0px;
+}
+
+.world {
+  position: absolute;
+  top: 0; 
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right {
+  float: right;
+  width: 55%;
+}
+
+.passport-border {
+  background-color:#2B3E51;
+  width: 90%;
+  height: 100%;
+  padding: 12px 12px 12px 12px;
+  border-radius: 11px 11px 11px 11px;
+}
+
+#passport {
+  margin: auto;
+  background-color: white;
+  border-radius: 4px 4px 4px 4px;
+  width: 2000px;
+  height: 500px;
+  max-width:100%;
+  max-height:100%;
+  overflow: hidden;
+}
+
+.top {
+  height: 50%;
+  position: relative;
+}
+
+.photoid {
+  background-image: url('../images/Cal1PhotoID.jpg');
+  float: left;
+  width: 25%;
+  height: 60%;
+  border: 4px solid #386890;
+  background-size: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 2px 2px 2px 2px;
+  margin: 0% 0% 0% 5%;
+  position: relative;
+  top: 20%;
+}
+
+.info {
+  float: right;
+  position: relative;
+  width: 65%;
+  height: 100%;
+  margin: 0% 0% 0% 0%;
+}
+
+.category {
+  font-family: Roboto;
+  font-size: 11;
+  font-style: italic;
+  line-height: 1.7;
+  position: relative;
+}
+
+.answer {
+  font-family: Noto Sans;
+  font-weight: bold;
+  font-size: 15;
+  position: absolute;
+  line-height: .5;
+}
+
+#crease {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: .5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.bottom {
+  height: 50%;
+  position: relative;
+  float: left;
+}
+
+.stamp {
+  width: 12%;
+  height: 28%;
+  position: relative;
+  display: inline-block;
+  margin: 15% 6% 0% 6%;
+}
+
+.stamp img {
+  opacity: 0.5;
+  background-size: 100%;
+  width: 100%;
+}
+
